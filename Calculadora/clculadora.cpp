@@ -1,5 +1,5 @@
 /*Autor: alforhanz@alforhanz-*/
-/*ya esto no es una Calculadora básica*/
+/*Calculadora Cientifica*/
 
 
 #include <stdlib.h>
@@ -86,6 +86,7 @@ do {printf("\n\t\t*******************************");
 					printf("\n\t\t(%0.2f)^(%0.2f) = (%0.2f)\n",z,y,x); 										
 
 			break;
+			
 
 			default: printf("\n\t\tError esta opcion no esta dentro de las contempladas para los calculos "); 
            }
