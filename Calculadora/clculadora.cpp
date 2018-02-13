@@ -1,5 +1,5 @@
 /*Autor: alforhanz@alforhanz-*/
-/*Calculadora básica*/
+/*ya esto no es una Calculadora básica*/
 
 
 #include <stdlib.h>
