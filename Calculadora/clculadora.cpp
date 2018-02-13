@@ -1,12 +1,12 @@
 /*Autor: alforhanz@alforhanz-*/
 /*Calculadora Cientifica*/
 
-
+#include <math.h>
 #include <stdlib.h>
 #include <stdio.h>
 int main()
 {
-float x,y,z,sum,dif,mult,div,pot;
+float x,y,z,sum,dif,mult,div,pot,seno,coseno;
 
 int fac,a,q,opt,i=0;
 int j=0;
@@ -86,7 +86,18 @@ do {printf("\n\t\t*******************************");
 					printf("\n\t\t(%0.2f)^(%0.2f) = (%0.2f)\n",z,y,x); 										
 
 			break;
-			
+			case 7: printf("\n\t\tCalculo del Seno(x)\n");
+					printf("\n\t\tEscribe un numero: "); 
+					scanf("%f",&x); 
+					seno=sin(x); 
+					printf("\n\t\t Seno(%0.5f) = %.5f\t",x,seno);
+			break;
+			case 8: printf("\n\t\tCalculo del coseno(x)\n");
+					printf("\n\t\tEscribe un numero: "); 
+					scanf("%f",&x); 
+					coseno=cos(x); 
+					printf("\n\t\t Coseno(%0.5f) = %.5f\t",x,coseno);
+			break;
 
 			default: printf("\n\t\tError esta opcion no esta dentro de las contempladas para los calculos "); 
            }

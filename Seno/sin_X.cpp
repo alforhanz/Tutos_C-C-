@@ -1,0 +1,1 @@
+/*este conjunto de instrucciones en c calcula el seno de un número donde xE R r es los números reales*/
